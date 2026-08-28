@@ -1,0 +1,19 @@
+{
+  "name": "fear-and-greed-widget",
+  "version": "1.0.0",
+  "description": "Real-time Fear & Greed Index iOS widget for Scriptable with offline caching, visual gauge meter, and dark/light themes.",
+  "scripts": {
+    "test": "node test/all_variants_test.js"
+  },
+  "keywords": [
+    "ios",
+    "scriptable",
+    "widget",
+    "widgetkit",
+    "fear-and-greed",
+    "finance",
+    "market-sentiment"
+  ],
+  "author": "Joel Hultman",
+  "private": true
+}

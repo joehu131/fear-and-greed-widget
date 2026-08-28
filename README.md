@@ -57,5 +57,11 @@ Includes offline caching, dynamic multi-zone visual gauge rendering, trend delta
 Run the headless VM test suite:
 
 ```bash
-node test/all_variants_test.js
+npm test
 ```
+
+---
+
+## Disclaimer
+
+This is an independent open-source tool and is not affiliated with, endorsed by, or sponsored by CNN or Warner Bros. Discovery. All trademarks and index names belong to their respective owners.
