@@ -10,9 +10,9 @@ Includes offline caching, dynamic multi-zone visual gauge rendering, trend delta
 
 | Classic Dark | Classic Light |
 | :---: | :---: |
-| ![Classic Dark](screenshots/classic-dark.png) | ![Classic Light](screenshots/classic-light.png) |
+| ![Classic Dark](screenshots/classic-dark.jpg) | ![Classic Light](screenshots/classic-light.jpg) |
 | **Modern Dark** | **Modern Light** |
-| ![Modern Dark](screenshots/modern-dark.png) | ![Modern Light](screenshots/modern-light.png) |
+| ![Modern Dark](screenshots/modern-dark.jpg) | ![Modern Light](screenshots/modern-light.jpg) |
 
 ---
 
@@ -27,10 +27,10 @@ Includes offline caching, dynamic multi-zone visual gauge rendering, trend delta
 │       ├── fear-and-greed-modern-dark.js
 │       └── fear-and-greed-modern-light.js
 ├── screenshots/
-│   ├── classic-dark.png
-│   ├── classic-light.png
-│   ├── modern-dark.png
-│   └── modern-light.png
+│   ├── classic-dark.jpg
+│   ├── classic-light.jpg
+│   ├── modern-dark.jpg
+│   └── modern-light.jpg
 └── test/
     ├── all_variants_test.js
     ├── e2e_widget_test.js
