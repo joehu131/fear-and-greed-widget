@@ -10,9 +10,9 @@ Includes offline caching, dynamic multi-zone visual gauge rendering, trend delta
 
 | Classic Dark | Classic Light |
 | :---: | :---: |
-| ![Classic Dark](screenshots/classic-dark.jpg) | ![Classic Light](screenshots/classic-light.jpg) |
+| <img src="screenshots/classic-dark.jpg" width="240" alt="Classic Dark" /> | <img src="screenshots/classic-light.jpg" width="240" alt="Classic Light" /> |
 | **Modern Dark** | **Modern Light** |
-| ![Modern Dark](screenshots/modern-dark.jpg) | ![Modern Light](screenshots/modern-light.jpg) |
+| <img src="screenshots/modern-dark.jpg" width="240" alt="Modern Dark" /> | <img src="screenshots/modern-light.jpg" width="240" alt="Modern Light" /> |
 
 ---
 
