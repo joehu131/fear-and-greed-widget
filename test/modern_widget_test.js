@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs');
 
 // Read Modern JS Script
-const jsPath = path.resolve(__dirname, '../Fear & Greed Modern.js');
+const jsPath = path.resolve(__dirname, '../widgets/modern/fear-and-greed-modern-dark.js');
 const jsContent = fs.readFileSync(jsPath, 'utf8');
 
 // Mock Scriptable Classes for Modern Widget

@@ -4,13 +4,9 @@ const vm = require('vm');
 const assert = require('assert');
 const https = require('https');
 
-// Read and parse .scriptable file
-const scriptablePath = path.resolve(__dirname, '../Fear & Greed Widget.scriptable');
-const rawContent = fs.readFileSync(scriptablePath, 'utf8');
-const scriptableJson = JSON.parse(rawContent);
-
-assert.strictEqual(scriptableJson.name, 'Fear & Greed Widget');
-assert(typeof scriptableJson.script === 'string', 'Script property must be a string');
+// Read Classic JS Script
+const classicPath = path.resolve(__dirname, '../widgets/classic/fear-and-greed-classic-dark.js');
+const classicScript = fs.readFileSync(classicPath, 'utf8');
 
 class MockColor {
   constructor(hex) {
@@ -189,7 +185,7 @@ async function executeScriptInSandbox(envOptions = {}) {
   };
 
   const context = vm.createContext(sandbox);
-  const scriptCode = `(async () => {\n${scriptableJson.script}\n})()`;
+  const scriptCode = `(async () => {\n${classicScript}\n})()`;
   
   await vm.runInContext(scriptCode, context);
 
